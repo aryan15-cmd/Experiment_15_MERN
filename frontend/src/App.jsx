@@ -7,7 +7,7 @@ function App() {
 
   useEffect(() => {
 
-    fetch("http://localhost:5000/students")
+    fetch("https://experiment-15-backend.onrender.com/students")
       .then(response => response.json())
       .then(data => {
         setStudents(data);
